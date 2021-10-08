@@ -1,0 +1,110 @@
+body{
+
+    margin:0;
+    padding:0;
+    background: url(bg.JPG);
+    background-size: cover;
+    background-position:fit;
+    font-family: sans-serif;
+    top:20%;
+}
+
+.logbox{
+    width: 320x;
+    height: 420px;
+    /*background: url(logboo.jpg);*/
+    background: black;
+    opacity: 90%;
+    color:white;
+    border-radius: 40px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform:  translate(-50%, -50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+.profilepic{
+    width: 100px;
+    height: 100px;
+    background: 500px;
+    background-color: rgb(255, 255, 255);
+    border-radius:  100px;
+    box-shadow: transparent;
+    border: rgb(36, 3, 113);
+    position:absolute;
+    top: -50px;
+    left: 110px;
+
+}
+h1{
+    font-style: bold;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 26px;
+}
+
+.logbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.logbox input{
+    width: 100%;
+    margin-bottom: 20px;
+
+}
+
+.logbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    background: transparent;
+    outline: none;
+    height: 40px;
+
+    /* for inputs username and password !  */
+
+    color:white;               
+    font-size: 16px;
+}
+
+/* LOGIN BUTTON */
+
+.logbox input[type="submit"]
+{
+    border: none;
+    outline:none;
+    height: 40px;
+    background: white;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    font-weight: bolder;
+    border-radius: 20px;
+}
+
+.logbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background:rgb(255, 0, 0);
+    color:white;
+
+}
+.logbox a{
+    text-decoration:none;
+    font-size: 12px;
+    
+    line-height: 25px;
+    color: rgb(252, 255, 51);
+    
+}
+
+.logbox a:hover
+{   color: rgb(0, 255, 119);
+
+}
